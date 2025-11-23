@@ -1,0 +1,3 @@
+Mon CV est disponible
+- en pdf : [[file:CV.pdf]]
+- en latex : [[file:CV.tex]]
