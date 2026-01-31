@@ -1,0 +1,120 @@
+\documentclass[11pt,oneside,a4paper,titlepage]{article}
+
+\usepackage[most]{tcolorbox}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue
+    }
+
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=5mm,
+  right=5mm,
+  top=5mm,
+  bottom=5mm
+}
+
+\definecolor{titleBack}{RGB}{0,66,21}
+
+\title{Gabriel Tessier}
+\date{}
+
+\begin{document}
+\tcbset{colframe=gray!95!black,colback=titleBack,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}{4.5cm}
+%    \hspace*{-0.3cm}\includegraphics[width=4cm]{image.jpg}
+    \begin{tikzpicture}
+      \clip (0,0) circle (2cm) node {\includegraphics[width=4cm]{image.jpg}};
+    \end{tikzpicture}
+  \end{minipage}
+  \begin{minipage}{15cm}
+    \begin{center}
+      {\Huge{\textcolor{white}{Gabriel TESSIER}}}\\
+      \vspace*{0.5cm}
+      {\LARGE{\textcolor{white}{\emph{Étudiant Ensimag cycle ingénieur $2^{e}$ année}}}}\\
+      \vspace*{0.5cm}
+      \textcolor{white}{Je suis motivé et enthousiaste avec un grand intérêt pour la programmation et plus précisément la programmation bas niveau.\\Je recherche un stage qui utiliserait mes compétences et les développerait.}
+    \end{center}
+  \end{minipage}
+\end{tcolorbox}
+
+\tcbset{colframe=white,colback=white,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}[t]{8cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to left by=0.6cm,colback=gray!25,colframe=white]
+      \section*{Coordonnées}
+      \setlength{\tabcolsep}{2pt}
+      \begin{tabular}{rl}
+        Tel : & 07 67 06 66 65 \\
+        Email : & \href{mailto:Gabriel.Tessier45@gmail.com}{Gabriel.Tessier45@gmail.com} \\
+        Github : & \href{https://github.com/GabrielTessier}{https://github.com/GabrielTessier} \\
+        Permis : & B\\
+        Linkedin : & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{https://www.linkedin.com/in/gab}\\
+        & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{riel-tessier-83978135a/}
+      \end{tabular}
+
+      \section*{Compétences}
+      \begin{itemize}
+        \item{Langages C / Assembleur x86\_64 et RISC-V / Ocaml / Java / Python / Kotlin / Lua}
+        \item{Bases de données SQL}
+        \item{OS Linux / Git}
+        \item{IDE Emacs / Processing / Eclipse / Androïd Studio / Blender}
+      \end{itemize}
+
+      \section*{Langues}
+      \begin{itemize}
+        \item{Français}
+        \item{Anglais : B1}
+      \end{itemize}
+
+      \section*{Loisir}
+      \begin{itemize}
+        \item{Musique : pratique de la batterie pendant 10 ans en école de musique}
+        \item{Informatique : programmation}
+      \end{itemize}
+    \end{tcolorbox}
+  \end{minipage}
+  \begin{minipage}[t]{10.6cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to right by=0.75cm,colframe=white,colback=white]
+      \section*{Formation}
+      \begin{itemize}
+        \item{2024/2026 : Cycle ingénieur Ensimag}
+        \item{2022/2024 : CPGE MP2I et MPI* au Lycée Descartes de Tours}
+      \end{itemize}
+
+      \section*{Diplôme}
+      2021/2022 : Bac général, mention Bien
+      \begin{itemize}
+        \item{Spécialité Numérique et sciences informatiques (NSI)}
+        \item{Spécialité Mathématiques}
+        \item{Option Mathématiques expertes}
+      \end{itemize}
+
+      \section*{Stages}
+      \begin{itemize}
+        \item{Février 2020 : Stage de $2^{\text{de}}$ (1 semaine)\\Direction des Systèmes d'Information de l'Université d'Orléans.\\Découverte de la DSI : réseau, grande applications, système d'information (bases de données, connecteurs), développement web.}
+        \item{Mars 2019 : Stage de $3^{\text{e}}$ (1 semaine)\\LIFO (Laboratoire d'Informatique Fondamentale d'Orléans) - Université d'Orléans.\\Développement, pour un chercheur du laboratoire, d'une application pour télécommander un robot muni d'une carte Arduino avec un téléphone Androïd via Bluetooth.}
+      \end{itemize}
+    \end{tcolorbox}
+  \end{minipage}
+\end{tcolorbox}
+
+\vspace*{-1cm}
+\section*{Projets}
+\subsection*{2025 - Décodeur jpeg vers ppm}
+Dans le cadre d'un projet de 3 semaines à l'Ensimag, j'ai créé un décodeur jpeg baseline et jpeg progressif en c.
+\subsection*{2024 - Création de joueurs artificiels pour Tetris}
+Dans le cadre de mon TIPE en CPGE, j'ai programmé en langage C différentes stratégies de jeu pour Tetris (méthodes par apprentissage et avec heuristiques).
+\subsection*{Réalisation de plusieurs programmes}
+Passionné par l'informatique depuis la classe de $5^{\text{e}}$, j'ai écrit de nombreux programmes avec différents langages de programmation (Java, Kotlin, Python, Ocaml, C, Javascript) et IDE (Emacs, Processing, Eclipse, Androïd Studio).
+
+\end{document}

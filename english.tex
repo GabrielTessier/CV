@@ -1,0 +1,114 @@
+\documentclass[11pt,oneside,a4paper,titlepage]{article}
+
+\usepackage[most]{tcolorbox}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue
+    }
+
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=5mm,
+  right=5mm,
+  top=5mm,
+  bottom=5mm
+}
+
+\definecolor{titleBack}{RGB}{0,66,21}
+
+\title{Gabriel Tessier}
+\date{}
+
+\begin{document}
+\tcbset{colframe=gray!95!black,colback=titleBack,arc=0mm}
+\begin{tcolorbox}
+  \vspace*{\fill}
+  \begin{center}
+    \begin{minipage}{.9\textwidth}
+      \begin{center}
+        \Huge{\textcolor{white}{Gabriel TESSIER}}\\
+      \end{center}
+      \begin{center}
+        \Large{\textcolor{white}{\emph{Student at the Ensimag engineering school in $2^{nd}$ year}}}\\
+      \end{center}
+      \begin{center}
+        \textcolor{white}{I'm a motivated and enthusiastic individual with a strong interest in programming. I'm looking for a role that uses my skills and develops them further.}
+      \end{center}
+    \end{minipage}
+  \end{center}
+\end{tcolorbox}
+
+\tcbset{colframe=white,colback=white,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}[t]{8cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to left by=0.6cm,colback=gray!25,colframe=white]
+      \section*{Contact details}
+      \setlength{\tabcolsep}{2pt}
+      \begin{tabular}{rl}
+        Phone : & +33 7 67 06 66 65 \\
+        Email : & \href{mailto:Gabriel.Tessier45@gmail.com}{Gabriel.Tessier45@gmail.com} \\
+        Github : & \href{https://github.com/GabrielTessier}{https://github.com/GabrielTessier} \\
+        Linkedin : & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{https://www.linkedin.com/in/gab}\\
+        & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{riel-tessier-83978135a/}
+      \end{tabular}
+
+      \section*{Skills}
+      \begin{itemize}
+        \item{Languages C / Assembly x86\_64 et RISC-V / Ocaml / Java / Python / Kotlin / Lua}
+        \item{SQL Data Base}
+        \item{OS Linux / Git}
+        \item{IDE Emacs / Processing / Eclipse / Android Studio / Blender}
+      \end{itemize}
+
+      \section*{Languages}
+      \begin{itemize}
+        \item{French: native}
+        \item{English: B2}
+      \end{itemize}
+
+      \section*{Hobbies}
+      \begin{itemize}
+        \item{Music: practicing drums for 10 years in music school}
+        \item{Computer science: programming}
+      \end{itemize}
+    \end{tcolorbox}
+  \end{minipage}
+  \begin{minipage}[t]{10.6cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to right by=0.75cm,colframe=white,colback=white]
+      \section*{Training}
+      \begin{itemize}
+        \item{2024/2026: Ensimag engineering cycle\\Top French educational institution in Informatics, Applied Mathematics and Telecommunications}
+        \item{2022/2024: CPGE MPI*\\Pre-engineering: Intensive two-year undergraduate course to prepare in computer sciencs, maths and physics for the competitive entrance exams to French “Grandes Ecoles”
+        }
+      \end{itemize}
+
+      \section*{Diploma}
+      2021/2022: French Baccalaureate (French high/secondary school diploma) passed with high honours\\Main Subjects: Maths, Computer science
+
+      \section*{Internships}
+      \begin{itemize}
+      \item{February 2020: Internship (1 week)\\- Information Systems Department at the University of Orléans.\\- Discovered IT department: networks, large applications, information systems (databases, connectors), web development.}
+      \item{March 2019: Internship (1 week)\\- Orléans Fundamental Computer Science Laboratory - University of Orléans.\\- Developed an application to remotely control a robot equipped with an Arduino board with an Android phone via Bluetooth.}
+      \end{itemize}
+    \end{tcolorbox}
+  \end{minipage}
+\end{tcolorbox}
+
+\vspace*{-1cm}
+\section*{Projects}
+\subsection*{2025 - JPEG to PPM decoder}
+A 3-week project at engineering school, I created a baseline jpeg and progressive jpeg decoder in c.
+\subsection*{2024 - Creating artificial players for Tetris}
+As part of my pre-engineering studies, I programmed different learning strategies for Tetris in C language (learning methods and with heuristics).
+\subsection*{Implementation of several programs}
+Passionate about computers since I was 12 years old, I have written many programs with different programming languages (Java, Kotlin, Python, Ocaml, C, Lua, Javascript) and IDEs (Processing, Eclipse, Android Studio).
+
+\end{document}

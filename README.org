@@ -1,0 +1,7 @@
+En Français :
+- pdf : [[file:CV.pdf]]
+- latex : [[file:CV.tex]]
+
+In English:
+- pdf: [[file:english.pdf]]
+- latex: [[file:english.tex]]
