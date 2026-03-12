@@ -20,6 +20,11 @@
   bottom=5mm
 }
 
+\usepackage{enumitem}
+\setlist{leftmargin=5.5mm}
+\setlist[itemize]{topsep=0em, itemsep=0.5em,parsep=0em}
+
+
 \definecolor{titleBack}{RGB}{0,66,21}
 
 \title{Gabriel Tessier}
@@ -47,7 +52,7 @@
 
 \tcbset{colframe=white,colback=white,arc=0mm}
 \begin{tcolorbox}
-  \begin{minipage}[t]{8cm}
+  \begin{minipage}[t]{7cm}
     \vspace*{-0.5cm}
     \begin{tcolorbox}[grow to left by=0.6cm,colback=gray!25,colframe=white]
       \section*{Coordonnées}
@@ -55,9 +60,9 @@
       \begin{tabular}{rl}
         Tel : & 07 67 06 66 65 \\
         Email : & \href{mailto:Gabriel.Tessier45@gmail.com}{Gabriel.Tessier45@gmail.com} \\
-        Github : & \href{https://github.com/GabrielTessier}{https://github.com/GabrielTessier} \\
+        Github : & \href{https://github.com/GabrielTessier}{github.com/GabrielTessier} \\
         Permis : & B\\
-        Linkedin : & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{https://www.linkedin.com/in/gab}\\
+        Linkedin : & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{www.linkedin.com/in/gab}\\
               & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{riel-tessier-83978135a/}
       \end{tabular}
 
@@ -71,13 +76,14 @@
 
       \section*{Langues}
       \begin{itemize}
-        \item{Français natif et anglais B1}
+      \item{Français natif}
+      \item{Anglais B1}
       \end{itemize}
 
       \section*{Loisirs}
       \begin{itemize}
         \raggedright
-        \item{Informatique : programmation et cybersécurité (CTF \href{https://tryhackme.com/p/gagegygugigo}{https://tryhackme.com/p/gagegygugigo})}
+        \item Informatique : programmation et cybersécurité (CTF \href{https://tryhackme.com/p/gagegygugigo}{tryhackme.com/p/gagegygugigo})\\ CodinGame niveau 10 : \href{https://www.codingame.com/profile/658f551d55c835532e8d3475a31fb03c7896563}{https://www.codingame.com/profile/\\658f551d55c835532e8d3475a31fb03c7\\896563}
         \item{Musique : pratique de la batterie pendant 10 ans en école de musique}
       \end{itemize}
     \end{tcolorbox}
@@ -100,28 +106,39 @@
       \vspace{1em}
       \begin{tabular}{ll}
         $\bullet$ 2021/2022 : & Bac général, mention Bien\\
-                              & - Spécialité Numérique et sciences\\
-                              & \ \ informatiques (NSI)\\
+                              & - Spécialité Numérique et sciences informatiques\\
+                              &\ \ (NSI)\\
                               & - Spécialité Mathématiques\\
                               & - Option Mathématiques expertes
       \end{tabular}
 
-      \section*{Stages}
-      \begin{itemize}
-        \item{Février 2020 : Stage de $2^{\text{de}}$ (1 semaine)\\Direction des Systèmes d'Information de l'Université d'Orléans.\\Découverte de la DSI : réseau, grandes applications, système d'information (bases de données, connecteurs), développement web.}
-        \item{Mars 2019 : Stage de $3^{\text{e}}$ (1 semaine)\\LIFO (Laboratoire d'Informatique Fondamentale d'Orléans) - Université d'Orléans.\\Développement, pour un chercheur du laboratoire, d'une application pour télécommander un robot muni d'une carte Arduino avec un téléphone Androïd via Bluetooth.}
-      \end{itemize}
+      \section*{Projets}
+      \subsection*{2026 - Projet génie logiciel : Compilateur deca écrit en java}
+      Dans le cadre d'un projet de 1 mois, nous avons (en groupe de 5) créé un compilateur du langage deca (un sous ensemble de java). Le compilateur est écrit en java.
+      \subsection*{2025 - Décodeur jpeg vers ppm}
+      Dans le cadre d'un projet de 3 semaines à l'Ensimag, j'ai créé un décodeur jpeg baseline et jpeg progressif en C. \href{https://github.com/GabrielTessier/jpeg_decoder}{https://github.com/GabrielTessier/jpeg\_decoder}
+      \subsection*{2024 - Création de joueurs artificiels pour Tetris}
+      Dans le cadre de mon TIPE en CPGE, j'ai programmé en langage C différentes stratégies de jeu pour Tetris (méthodes par apprentissage et avec heuristiques).
+
     \end{tcolorbox}
   \end{minipage}
 \end{tcolorbox}
 
 \vspace*{-1cm}
-\section*{Projets}
-\subsection*{2026 - Projet génie logiciel : Compilateur deca écrit en java}
-Dans le cadre d'un projet de 1 mois, nous avons (en groupe de 5) créé un compilateur du langage deca (un sous ensemble de java). Le compilateur est écrit en java.
-\subsection*{2025 - Décodeur jpeg vers ppm}
-Dans le cadre d'un projet de 3 semaines à l'Ensimag, j'ai créé un décodeur jpeg baseline et jpeg progressif en C.
-\subsection*{2024 - Création de joueurs artificiels pour Tetris}
-Dans le cadre de mon TIPE en CPGE, j'ai programmé en langage C différentes stratégies de jeu pour Tetris (méthodes par apprentissage et avec heuristiques).
+\section*{Projets personnels}
+
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+\item Implementation d'un ray marching en C++\\ \href{https://github.com/GabrielTessier/ray_marching}{https://github.com/GabrielTessier/ray\_marching}
+\item Un lecteur de musique en Kotlin pour Android 14\\ \href{https://github.com/GabrielTessier/musicPlayer}{https://github.com/GabrielTessier/musicPlayer}
+\item Un simulateur de circuit logique en C\\ \href{https://github.com/GabrielTessier/logic-sim}{https://github.com/GabrielTessier/logic-sim}
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\begin{itemize}
+\item Un afficheur de panorama en WebGL (JavaScript)\\ \href{https://github.com/GabrielTessier/Panorama-Viewer}{https://github.com/GabrielTessier/Panorama-Viewer}
+\item Une librairie de server web en C (supporte en partie HTTP et websocket)\\ \href{https://github.com/GabrielTessier/c_web_server}{https://github.com/GabrielTessier/c\_web\_server}
+\end{itemize}
+\end{minipage}
 
 \end{document}
