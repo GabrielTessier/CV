@@ -1,0 +1,178 @@
+\documentclass[10pt,oneside,a4paper,titlepage]{article}
+
+\usepackage[most]{tcolorbox}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue
+    }
+
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=5mm,
+  right=5mm,
+  top=5mm,
+  bottom=5mm
+}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{4pt}{3pt}
+\titleformat{\section}
+  {\fontsize{13pt}{13pt}\selectfont\bfseries}
+  {\thesection}
+  {1em}
+  {}
+
+\usepackage{enumitem}
+\setlist{leftmargin=5.5mm}
+\setlist[itemize]{topsep=0em, itemsep=0.5em,parsep=0em}
+
+\pagestyle{empty}
+
+\definecolor{titleBack}{RGB}{0,66,21}
+
+\title{Gabriel Tessier}
+\date{}
+
+\begin{document}
+
+\tcbset{colframe=gray!95!black,colback=titleBack,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}{4.5cm}
+%    \hspace*{-0.3cm}\includegraphics[width=4cm]{image.jpg}
+    \begin{tikzpicture}
+      \clip (0,0) circle (2cm) node {\includegraphics[width=4cm]{image.jpg}};
+    \end{tikzpicture}
+  \end{minipage}
+  \begin{minipage}{13cm}
+    \begin{center}
+      {\Huge{\textcolor{white}{Gabriel TESSIER}}}\\
+      \vspace*{0.5cm}
+      {\LARGE{\textcolor{white}{\emph{Étudiant ENSIMAG cycle ingénieur $3^{e}$ année (bac+5)}}}}\\
+      \vspace*{0.5cm}
+      \textcolor{white}{{\fontsize{11pt}{13pt}\selectfont Je recherche un stage de fin d'étude (6 mois)\\ pour mettre en oevre mes compétences et les développer.}}
+    \end{center}
+  \end{minipage}
+\end{tcolorbox}
+
+\tcbset{colframe=white,colback=white,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}[t]{7cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to left by=0.6cm,colback=gray!25,colframe=white,height=22.5cm,valign=top]
+      \section*{Coordonnées}
+      \setlength{\tabcolsep}{2pt}
+      \begin{tabular}{rl}
+        Tel : & 07 67 06 66 65 \\
+        Email : & \href{mailto:Gabriel.Tessier45@gmail.com}{Gabriel.Tessier45@gmail.com} \\
+        Github : & \href{https://github.com/GabrielTessier}{github.com/GabrielTessier} \\
+        Permis : & B\\
+        Linkedin : & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{www.linkedin.com/in/gab}\\
+              & \href{https://www.linkedin.com/in/gabriel-tessier-83978135a/}{riel-tessier-83978135a/}\\
+        Mobilité : & Nationale
+      \end{tabular}
+
+      \vspace{10pt}
+      \section*{Compétences}
+      \begin{itemize}
+        \renewcommand{\labelitemi}{-}
+      \item Languages : C, SQL, Ocaml, Java, Python, Kotlin
+      \item Architecture : x86\_64 et RISC-V
+      \item Systèmes : Linux (Distribution NixOS)
+      \item Outils : Git
+      \item Développement web : React, NestJS, Express.js
+      \item IDE : Emacs, VS Code, Android Studio, Processing, Eclipse, Blender
+      \end{itemize}
+
+      \section*{Points Forts}
+      \begin{itemize}
+        \renewcommand{\labelitemi}{-}
+      \item Veille cybersécurité (CVE, CTF)
+      \item Travail en équipe sur des projets
+      \end{itemize}
+      
+      \section*{Langues}
+      \begin{itemize}
+        \renewcommand{\labelitemi}{-}
+      \item Français natif
+      \item Anglais B2 (Toeic : 835)
+      \end{itemize}
+
+      \section*{Loisirs}
+      \begin{itemize}
+        \raggedright
+        \renewcommand{\labelitemi}{-}
+      \item Informatique : programmation et cybersécurité (CTF \href{https://tryhackme.com/p/gagegygugigo}{tryhackme.com/p/gagegygugigo})\\ CodinGame niveau 11 : \href{https://www.codingame.com/profile/658f551d55c835532e8d3475a31fb03c7896563}{https://www.codingame.com/profile/\\658f551d55c835532e8d3475a31fb03c7\\896563}\\
+      \item Musique : pratique de la batterie pendant 10 ans en école de musique
+      \end{itemize}
+
+    \end{tcolorbox}
+  \end{minipage}
+  \begin{minipage}[t]{11.6cm}
+    \vspace*{-0.5cm}
+    \begin{tcolorbox}[grow to right by=0.75cm,colframe=white,colback=white]
+      \section*{Formation}
+      \begin{itemize}
+      \item{
+          2024--2027 : Cycle ingénieur Ensimag (Grenoble).\\Filière ISI (Ingénierie des systèmes d'information)
+          \vspace{3pt}\\
+          $\rightarrow$ fin 2026 : Erasmus, 1 semestre en Suède à Stockholm (KTH Royal Institute of Technology) en cybersecurité
+        }
+      \item{2022--2024 : CPGE MP2I et MPI* au Lycée Descartes de Tours}
+      \end{itemize}
+
+      \section*{Diplômes}
+      \begin{tabular}{ll}
+        $\bullet$ 2025 : & Bachelor en sciences de l'ingénieur\\
+                         & Institut Polytechnique de Grenoble
+      \end{tabular}
+
+      \vspace{1em}
+      \begin{tabular}{ll}
+        $\bullet$ 2022 : & Bac général, mention Bien\\
+                         & - Spécialités : Numérique et sciences informatiques\\
+                         &\ \ (NSI), Mathématiques\\
+                         & - Option : Mathématiques expertes
+      \end{tabular}
+
+      \section*{Stages}
+      \begin{itemize}
+      \item Juin, Juillet 2026 - Stage de développement web chez Theia-IT à Orléans.\\
+        Évolution et maintenance de deux applications web internes pour la gestion des entretiens annuels, des suivis de missions et des entretiens professionnels. React et NestJS.
+      \end{itemize}
+
+      \section*{Projets personnels}
+      \begin{itemize}
+      \item Gestion d'un serveur pour administrer un site web contenant mes randonnées faites durant les vacances (\href{https://randos.tessierg.fr}{https://randos.tessierg.fr}) et un serveur Matrix (messagerie décentralisée).
+      \item Implémentation d'un ray marching en C++\\ \href{https://github.com/GabrielTessier/ray_marching}{https://github.com/GabrielTessier/ray\_marching}
+      \item Un lecteur de musique en Kotlin pour Android 14\\ \href{https://github.com/GabrielTessier/musicPlayer}{https://github.com/GabrielTessier/musicPlayer}
+      \item Un simulateur de circuit logique en C\\ \href{https://github.com/GabrielTessier/logic-sim}{https://github.com/GabrielTessier/logic-sim}
+      \item Un afficheur de panorama pour le web en WebGL (JavaScript)\\ \href{https://github.com/GabrielTessier/Panorama-Viewer}{https://github.com/GabrielTessier/Panorama-Viewer}
+      \item Une librairie de serveur web en C (supporte en partie HTTP et WebSocket)\\ \href{https://github.com/GabrielTessier/c_web_server}{https://github.com/GabrielTessier/c\_web\_server}
+      \end{itemize}
+      
+      \section*{Projets académiques}
+      \begin{itemize}
+      \item 2026 - Conception d'un système d'exploitation (OS) RISC-V\\
+      Création d'un OS RISC-V avec gestion des processus, de la mémoire et des messages entre processus.
+      \item 2026 - Projet génie logiciel : Compilateur d'un sous-ensemble de Java\\
+      Création d'un compilateur pour un sous-ensemble de Java (langage Deca).
+      \item 2025 - Décodeur d'image jpeg vers ppm\\
+      Réalisation en langage C d'un décodeur jpeg baseline et jpeg progressif.\\ \href{https://github.com/GabrielTessier/jpeg_decoder}{https://github.com/GabrielTessier/jpeg\_decoder}
+      %\item 2024 - Création de joueurs artificiels pour Tetris\\
+      %Programmation en langage C de différentes stratégies de jeu pour Tetris
+      %(méthodes par apprentissage et avec heuristiques).
+      \end{itemize}
+
+    \end{tcolorbox}
+  \end{minipage}
+\end{tcolorbox}
+\end{document}

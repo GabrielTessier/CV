@@ -1,0 +1,2 @@
+- pdf : [[file:CV.pdf]]
+- latex : [[file:CV.tex]]
